@@ -51,7 +51,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'teacher-ttsx2.urls'
+ROOT_URLCONF = 'ttsx.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'teacher-ttsx2.wsgi.application'
+WSGI_APPLICATION = 'ttsx.wsgi.application'
 
 
 # Database
@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'teacher-ttsx2.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'teacher-ttsx2',
+        'NAME': 'ttsx',
         'USER': 'root',
         'PASSWORD': 'mysql',
         'HOST': 'localhost',
